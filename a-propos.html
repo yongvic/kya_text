@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYA ÉNERGIE GROUPE - À propos de nous</title>
+    <link rel="stylesheet" href="style_about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Simple -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/logo.avif" alt="KYA-Energy GROUP" class="logo">
+                <div class="certification-badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>ISO 9001:2015</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">ACCUEIL</a>
+                <a href="produits-services.html" class="nav-link">SERVICES</a>
+                <a href="a-propos-de-nous.html" class="nav-link active">ÉQUIPE</a>
+                <a href="recompenses.html" class="nav-link">RÉCOMPENSES</a>
+                <a href="certification.html" class="nav-link">CERTIFICATION</a>
+                <a href="actualites.html" class="nav-link">ACTUALITÉS</a>
+                <a href="fondation-kya.html" class="nav-link">FONDATION</a>
+            </div>
+            
+            <div class="nav-buttons">
+                <button class="btn-politique">
+                    <i class="fas fa-shield-check"></i>
+                    <span>POLITIQUE QUALITÉ</span>
+                </button>
+                <button class="btn-contact">
+                    <span>Contact</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section avec Carrousel -->
+    <section class="hero-section">
+        <div class="hero-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide active" style="background-image: url('img/groupe1.png');">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide" style="background-image: url('img/groupe2.png');">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-slide" style="background-image: url('img/groupe3.png');">
+                    <div class="carousel-overlay"></div>
+                </div>
+            </div>
+        
+            <button class="carousel-btn prev-btn" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next-btn" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Notre Équipe d'Excellence</h1>
+                    <p class="hero-subtitle">
+                        Découvrez les experts qui façonnent l'avenir énergétique de l'Afrique 
+                        avec passion, innovation et professionnalisme.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Experts</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15</span>
+                            <span class="stat-label">Pays</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vision -->
+    <section class="vision-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Notre Vision</span>
+                <h2 class="section-title">Transformer l'Afrique par l'Énergie Solaire</h2>
+                <p class="section-description">
+                    KYA-Energy Group s'engage dans la révolution énergétique africaine avec une ambition claire : 
+                    devenir un leader incontournable des énergies renouvelables sur le continent.
+                </p>
+            </div>
+            
+            <div class="vision-grid">
+                <div class="vision-card">
+                    <div class="card-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Leadership Continental</h3>
+                    <p>Ambition de figurer parmi les 10 leaders de l'industrie énergétique en Afrique</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="card-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Innovation Technologique</h3>
+                    <p>Développement de solutions solaires de pointe adaptées au contexte africain</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>Impact Durable</h3>
+                    <p>Extension de notre influence pour un avenir énergétique durable en Afrique</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Fondateur -->
+    <section class="founder-section">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-image">
+                    <img src="img/prof_yao.png?height=500&width=400" alt="Prof. Yao K. AZOUMAH">
+                    <div class="founder-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>Fondateur & CEO</span>
+                    </div>
+                </div>
+                
+                <div class="founder-info">
+                    <h2 class="founder-name">Prof. Yao K. AZOUMAH</h2>
+                    <p class="founder-title">Fondateur et Directeur Général</p>
+                    
+                    <div class="founder-description">
+                        <p>
+                            Visionnaire et pionnier de l'énergie renouvelable en Afrique, le Professeur Yao K. AZOUMAH 
+                            combine expertise académique et vision entrepreneuriale pour révolutionner le secteur énergétique africain.
+                        </p>
+                        
+                        <div class="achievements">
+                            <div class="achievement">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <h4>Professeur d'Université</h4>
+                                    <p>Expert reconnu en énergies renouvelables</p>
+                                </div>
+                            </div>
+                            
+                            <div class="achievement">
+                                <i class="fas fa-lightbulb"></i>
+                                <div>
+                                    <h4>Innovateur</h4>
+                                    <p>Pionnier des solutions solaires africaines</p>
+                                </div>
+                            </div>
+                            
+                            <div class="achievement">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <h4>Leader Visionnaire</h4>
+                                    <p>Architecte de l'avenir énergétique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipe Dirigeante -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Leadership</span>
+                <h2 class="section-title">Comité de Direction</h2>
+                <p class="section-description">
+                    Une équipe d'experts chevronnés avec plus de 15 ans d'expérience collective, 
+                    unis par une vision commune d'excellence et d'innovation.
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <div class="member-card featured">
+                    <div class="member-image">
+                        <img src="img/yao.png?height=300&width=300" alt="Prof. Yao K. AZOUMAH">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Prof. Yao K. AZOUMAH</h3>
+                        <p>Directeur Général</p>
+                        <span class="member-badge ceo">CEO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/yves.png?height=300&width=300" alt="M. Yves LAWSON">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>M. Yves LAWSON</h3>
+                        <p>Directeur Général Adjoint</p>
+                        <span class="member-badge deputy">Deputy CEO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/tchassama.png?height=300&width=300" alt="M. Tchilabalo TCHAKALA">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>M. Tchakinguéwé TCHASSAMA</h3>
+                        <p>Directeur Technique et des Opérations</p>
+                        <span class="member-badge tech">CTO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/sylvie.png?height=300&width=300" alt="Mme Sylvie SHIESE">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mme Sylvie SHIKPE</h3>
+                        <p>Directrice Commerciale & Marketing</p>
+                        <span class="member-badge marketing">CMO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/EKLOU.jpg?height=300&width=300" alt="M. Yaovi K. SELOUI">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>M. Yaovi V. EKLOU</h3>
+                        <p>Directeur des Ressources Humaines</p>
+                        <span class="member-badge hr">CHRO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/fousseni.png?height=300&width=300" alt="M. Mohamed FOUSSEINI">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>M. Mohamed FOUSSENI</h3>
+                        <p>Directeur Financier & Comptable</p>
+                        <span class="member-badge finance">CFO</span>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="img/massan.png?height=300&width=300" alt="M. Mohamed FOUSSEINI">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mme Massan AGBEHADJI</h3>
+                        <p>Assistante de Direction</p>
+                        <span class="member-badge finance">CFO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Valeurs -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nos Valeurs</span>
+                <h2 class="section-title">Les Piliers de notre Excellence</h2>
+                <p class="section-description">
+                    Des principes fondamentaux qui guident chacune de nos actions et décisions.
+                </p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>Professionnalisme et rigueur dans chaque projet</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Intégrité</h3>
+                    <p>Transparence et honnêteté en toutes circonstances</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Créativité et solutions avant-gardistes</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>Esprit d'équipe et synergie collective</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Durabilité</h3>
+                    <p>Responsabilité environnementale et sociale</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Équité</h3>
+                    <p>Justice et fairness dans toutes nos relations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Impact -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Notre Impact</span>
+                <h2 class="section-title">Résultats Concrets</h2>
+                <p class="section-description">
+                    Des chiffres qui témoignent de notre engagement et de notre impact positif.
+                </p>
+            </div>
+            
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="impact-number">1,000+</div>
+                    <div class="impact-label">Installations Solaires</div>
+                    <div class="impact-description">Systèmes déployés avec succès</div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="impact-number">50,000+</div>
+                    <div class="impact-label">Foyers Alimentés</div>
+                    <div class="impact-description">Familles bénéficiant d'énergie propre</div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="impact-number">25,000T</div>
+                    <div class="impact-label">CO₂ Évitées</div>
+                    <div class="impact-description">Impact environnemental positif</div>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <div class="impact-number">15</div>
+                    <div class="impact-label">Pays d'Intervention</div>
+                    <div class="impact-description">Présence continentale active</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Rejoignez l'Aventure KYA-Energy</h2>
+                <p class="cta-description">
+                    Découvrez nos opportunités et participez à la révolution énergétique africaine
+                </p>
+                
+                <div class="cta-buttons">
+                    <button class="btn-primary" id="organigramme-btn">
+                        <i class="fas fa-sitemap"></i>
+                        <span>Voir l'Organigramme</span>
+                    </button>
+                    
+                    <button class="btn-secondary" id="rejoindre-btn">
+                        <i class="fas fa-handshake"></i>
+                        <span>Nous Rejoindre</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="img/logo.avif" alt="KYA ÉNERGIE GROUPE" class="footer-logo">
+                    <p class="brand-tagline">
+                        Démocratiser l'accès à l'énergie durable en Afrique
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="produits-services.html">Services</a></li>
+                            <li><a href="a-propos-de-nous.html">Équipe</a></li>
+                            <li><a href="recompenses.html">Récompenses</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Entreprise</h4>
+                        <ul>
+                            <li><a href="certification.html">Certification</a></li>
+                            <li><a href="actualites.html">Actualités</a></li>
+                            <li><a href="fondation-kya.html">Fondation</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Contact</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>contact@kya-energy.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+228 XX XX XX XX</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Lomé, Togo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 KYA ÉNERGIE GROUPE. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Confidentialité</a>
+                    <a href="#">Conditions</a>
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="a-propos-script.js"></script>
+</body>
+</html>
