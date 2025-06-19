@@ -656,7 +656,7 @@ body {
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-md);
-  border: 1px solid var(--gray-100);
+  border: 2px solid var(--primary-green);
   transition: var(--transition);
   position: relative;
 }
