@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYA ÉNERGIE GROUPE - KYA FOUNDATION</title>
+    <link rel="stylesheet" href="kya-foundation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-pulse">KYA</div>
+                <div class="logo-pulse">FOUNDATION</div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Chargement en cours...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/placeholder.svg?height=50&width=120" alt="KYA ÉNERGIE GROUPE" class="logo">
+                <div class="certification-badges">
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                    <div class="quality-badge">
+                        <i class="fas fa-shield-check"></i>
+                        <span>QUALITY POLICY</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">HOME PAGE</a>
+                <a href="produits-services.html" class="nav-link">PRODUCTS & SERVICES</a>
+                <a href="a-propos.html" class="nav-link">OUR TEAM</a>
+                <a href="recompences.html" class="nav-link">AWARDS</a>
+                <a href="certification.html" class="nav-link">CERTIFICATION</a>
+                <a href="news.html" class="nav-link">NEWS</a>
+                <a href="kya-foundation.html" class="nav-link active">KYA FOUNDATION</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section class="foundation-hero">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="img/file.mp4" type="video/mp4">
+                <!-- Fallback image -->
+                <img src="img/dio.jpg?height=1080&width=1920" alt="Solar panels landscape">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-particles" id="heroParticles"></div>
+        
+        <div class="container" >
+            <div class="hero-content" >
+                <div class="hero-text-block" data-aos="fade-up" data-aos-delay="300">
+                    <div class="hero-badge">
+                        <div class="badge-glow"></div>
+                        <span class="badge-text">FONDATION KYA</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="title-word" data-aos="fade-up" data-aos-delay="500">NOS</span>
+                        <span class="title-word highlight" data-aos="fade-up" data-aos-delay="700">INITIATIVES</span>
+                    </h1>
+                    
+                    <div class="hero-description" data-aos="fade-up" data-aos-delay="900">
+                        <p>
+                            La Fondation KYA est créée en <span class="highlight-orange">octobre 2022</span>. 
+                            Elle a pour but de contribuer au développement socio-économique des populations africaines, 
+                            issues des groupes les plus vulnérables par des interventions en faveur du développement 
+                            en matière d'<span class="highlight-green">énergie, d'agriculture, de médecine, d'éducation</span> 
+                            et de l'environnement.
+                        </p>
+                        <p class="hero-motto">
+                            <i class="fas fa-heart pulse"></i>
+                            <strong>Fondation KYA, pour un monde meilleur.</strong>
+                        </p>
+                    </div>
+                    
+                    <div class="hero-actions" data-aos="fade-up" data-aos-delay="1100">
+                        <button class="download-btn" id="downloadBtn">
+                            <div class="btn-bg"></div>
+                            <div class="btn-content">
+                                <i class="fas fa-download"></i>
+                                <span>Télécharger la lettre d'engagement</span>
+                            </div>
+                            <div class="btn-ripple"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1300">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <p>Découvrir nos actions</p>
+        </div>
+    </section>
+
+    <!-- Actions & Goals Section -->
+    <section class="actions-goals-section">
+        <div class="section-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="actions-goals-grid">
+            <!-- Our means of action -->
+            <div class="content-card action-card" data-aos="slide-right">
+                <div class="card-bg-pattern"></div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h2>Nos moyens d'actions</h2>
+                        <div class="card-line"></div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <ul class="action-list">
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="100">
+                                <div class="item-bullet"></div>
+                                <span>L'octroi de bourses et subventions de formation</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="200">
+                                <div class="item-bullet"></div>
+                                <span>L'organisation des concours d'innovation</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="300">
+                                <div class="item-bullet"></div>
+                                <span>L'organisation des cours de formation, conférences, séminaires</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="400">
+                                <div class="item-bullet"></div>
+                                <span>L'appui aux entrepreneurs</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="500">
+                                <div class="item-bullet"></div>
+                                <span>Le soutien à l'autonomisation des femmes et des jeunes filles</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-left" data-aos-delay="600">
+                                <div class="item-bullet"></div>
+                                <span>L'appui à l'insertion socio-professionnelle des jeunes diplômés</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our goals -->
+            <div class="content-card goals-card" data-aos="slide-left">
+                <div class="card-bg-pattern"></div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h2>Nos objectifs</h2>
+                        <div class="card-line"></div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <ul class="goals-list">
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="100">
+                                <div class="item-bullet"></div>
+                                <span>Accroître l'accès aux services énergétiques durables en milieu rural</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="200">
+                                <div class="item-bullet"></div>
+                                <span>Promouvoir la science et la technologie chez les femmes</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="300">
+                                <div class="item-bullet"></div>
+                                <span>Promouvoir l'employabilité des jeunes en énergies renouvelables</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="400">
+                                <div class="item-bullet"></div>
+                                <span>Contribuer à l'amélioration de la qualité de l'éducation</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="500">
+                                <div class="item-bullet"></div>
+                                <span>Contribuer à l'autonomisation économique des femmes</span>
+                            </li>
+                            <li class="list-item" data-aos="fade-right" data-aos-delay="600">
+                                <div class="item-bullet"></div>
+                                <span>Contribuer à la lutte contre les changements climatiques</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Director Video Section -->
+    <section class="director-video-section">
+        <div class="container">
+            <div class="director-content" data-aos="fade-up">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-line">Les domaines</span>
+                        <span class="title-line highlight">d'intervention</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Découvrez notre approche et notre vision à travers cette présentation vidéo
+                    </p>
+                </div>
+                
+                <div class="video-player-container" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="video-wrapper">
+                        <video 
+                            id="kyaVideo" 
+                            class="kya-video" 
+                            poster="img/fond.png.jpg?width=800"
+                            preload="metadata"
+                        >
+                            <source src="img/video_kya.mp4" type="video/mp4">
+                            <source src="img/video_kya.webm" type="video/webm">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        
+                        <!-- Custom Video Controls -->
+                        <div class="video-controls" id="videoControls">
+                            <div class="controls-overlay">
+                                <!-- Play/Pause Button -->
+                                <button class="control-btn play-pause-btn" id="playPauseBtn">
+                                    <i class="fas fa-play" id="playPauseIcon"></i>
+                                </button>
+                                
+                                <!-- Progress Bar -->
+                                <div class="progress-container">
+                                    <div class="progress-bar" id="progressBar">
+                                        <div class="progress-filled" id="progressFilled"></div>
+                                        <div class="progress-handle" id="progressHandle"></div>
+                                    </div>
+                                    <div class="time-display">
+                                        <span id="currentTime">0:00</span>
+                                        <span class="time-separator">/</span>
+                                        <span id="duration">0:00</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Volume Control -->
+                                <div class="volume-container">
+                                    <button class="control-btn volume-btn" id="volumeBtn">
+                                        <i class="fas fa-volume-up" id="volumeIcon"></i>
+                                    </button>
+                                    <div class="volume-slider" id="volumeSlider">
+                                        <div class="volume-bar">
+                                            <div class="volume-filled" id="volumeFilled"></div>
+                                            <div class="volume-handle" id="volumeHandle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Speed Control -->
+                                <div class="speed-container">
+                                    <button class="control-btn speed-btn" id="speedBtn">
+                                        <span class="speed-text">1x</span>
+                                    </button>
+                                    <div class="speed-menu" id="speedMenu">
+                                        <button class="speed-option" data-speed="0.5">0.5x</button>
+                                        <button class="speed-option" data-speed="0.75">0.75x</button>
+                                        <button class="speed-option active" data-speed="1">1x</button>
+                                        <button class="speed-option" data-speed="1.25">1.25x</button>
+                                        <button class="speed-option" data-speed="1.5">1.5x</button>
+                                        <button class="speed-option" data-speed="2">2x</button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Fullscreen Button -->
+                                <button class="control-btn fullscreen-btn" id="fullscreenBtn">
+                                    <i class="fas fa-expand" id="fullscreenIcon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Loading Spinner -->
+                        <div class="video-loading" id="videoLoading">
+                            <div class="loading-spinner">
+                                <div class="spinner-ring"></div>
+                                <div class="spinner-ring"></div>
+                                <div class="spinner-ring"></div>
+                            </div>
+                            <p>Chargement de la vidéo...</p>
+                        </div>
+                        
+                        <!-- Video Overlay for Initial State -->
+                        <div class="video-overlay-initial" id="videoOverlay">
+                            <div class="overlay-content">
+                                <div class="play-button-large" id="playButtonLarge">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <h3>Présentation KYA Foundation</h3>
+                                <p>Découvrez notre mission et nos actions</p>
+                                <div class="video-duration-badge">
+                                    <i class="fas fa-clock"></i>
+                                    <span>5:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Info -->
+                    <div class="video-info" data-aos="fade-up" data-aos-delay="500">
+                        <div class="video-details">
+                            <h4>À propos de cette vidéo</h4>
+                            <p>
+                                Cette présentation vous donne un aperçu complet de la mission de la Fondation KYA, 
+                                de nos domaines d'intervention et de l'impact de nos actions sur les communautés africaines. 
+                                Découvrez comment nous contribuons au développement durable à travers l'éducation, 
+                                les énergies renouvelables et l'autonomisation des femmes.
+                            </p>
+                            <div class="video-tags">
+                                <span class="tag">Éducation</span>
+                                <span class="tag">Énergies Renouvelables</span>
+                                <span class="tag">Développement Durable</span>
+                                <span class="tag">Autonomisation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="video-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-eye"></i>
+                                <span>2,847 vues</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>156 likes</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-share"></i>
+                                <span>23 partages</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intervention Domains -->
+    <section class="intervention-domains">
+        <div class="container">
+            <div class="domains-grid">
+                <div class="domain-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="domain-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="domain-content">
+                        <h3 class="domain-title">Éducation et formation</h3>
+                        <p class="domain-description">
+                            L'éducation est un droit fondamental, un puissant vecteur de développement et l'un des meilleurs moyens de réduire la pauvreté,  de promouvoir l'égalité entre les sexes et de faire progresser la paix et la stabilité. 
+                            C'est dans ce sens que la Fondation KYA intervient dans l’accès à l’éducation des jeunes filles dans le domaine de la science et la technologie.   La fondation encourage  la poursuite des études chez les filles talentueuses  et octroie également des bourses d’études à celles qui sont vulnérables.
+                        </p>
+                        <div class="domain-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="150">0</span>
+                                <span class="stat-label">Bourses accordées</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="domain-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="domain-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="domain-content">
+                        <h3 class="domain-title">Énergies renouvelables</h3>
+                        <p class="domain-description">
+                            L’énergie est importante pour le développement social et économique.  Afin de faciliter l’accès à l’énergie durable en milieu rural et semi-urbain, la Fondation KYA intervient  en installation de système de Pompage et systèmes d'éclairage solaire. Des formations gratuites sont également offertes aux filles en installation et maintenance des systèmes solaires photovoltaïques chaque année.
+                        </p>
+                        <div class="domain-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="75">0</span>
+                                <span class="stat-label">Installations solaires</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="domain-card full-width" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="domain-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <div class="domain-content">
+                        <h3 class="domain-title">Développement durable</h3>
+                        <p class="domain-description">
+                            Alignée sur les 17 Objectifs de Développement Durable de l'ONU, 
+                            la Fondation KYA se concentre sur 7 objectifs prioritaires pour transformer les communautés africaines.
+                        </p>
+                        <div class="sdg-grid">
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD1</div>
+                                <span>Éliminer la pauvreté sous toutes ses formes</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD4</div>
+                                <span>Éducation de qualité  pour tous</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD5</div>
+                                <span>Egalité des sexes et autonomisation des femmes</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD7</div>
+                                <span>Énergies durables pour tous</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD8</div>
+                                <span>Croissance économique et emploi pour tous</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD13</div>
+                                <span>Lutte contre les changements climatiques</span>
+                            </div>
+                            <div class="sdg-item">
+                                <div class="sdg-number">ODD17</div>
+                                <span>Partenariats pour la réalisation des objectifs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Carousel -->
+    <section class="activities-section">
+        <div class="container">
+            <h2 class="section-title center" data-aos="fade-up">
+                <span class="title-line">Quelques images</span>
+                <span class="title-line highlight">de nos activités</span>
+            </h2>
+            
+            <div class="activities-carousel" data-aos="fade-up" data-aos-delay="300">
+                <div class="swiper activitiesSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="activity-card">
+                                <div class="activity-image">
+                                    <img src="img/acti1.avif?height=300&width=400" alt="Formation des jeunes filles">
+                                    <div class="activity-overlay">
+                                        <div class="activity-icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activity-content">
+                                    <h3>Formation des jeunes filles en solaire</h3>
+                                    <p>Programme de formation technique pour l'autonomisation des femmes dans le secteur de l'énergie solaire.</p>
+                                    <div class="activity-meta">
+                                        <span class="activity-date">
+                                            <i class="fas fa-calendar"></i>
+                                            Mai 2024
+                                        </span>
+                                        <span class="activity-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Lomé, Togo
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="activity-card">
+                                <div class="activity-image">
+                                    <img src="img/acti4.avif?height=300&width=400" alt="Installation solaire">
+                                    <div class="activity-overlay">
+                                        <div class="activity-icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activity-content">
+                                    <h3>Lancement de la fondation KYA</h3>
+                                    <p>Un engagement durable pour l’impact social et environnemental.</p>
+                                    <div class="activity-meta">
+                                        <span class="activity-date">
+                                            <i class="fas fa-calendar"></i>
+                                            2015
+                                        </span>
+                                        <span class="activity-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Lomé, Togo
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="activity-card">
+                                <div class="activity-image">
+                                    <img src="/placeholder.svg?height=300&width=400" alt="Conférence éducation">
+                                    <div class="activity-overlay">
+                                        <div class="activity-icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activity-content">
+                                    <h3>Conférence sur l'éducation inclusive</h3>
+                                    <p>Sensibilisation sur l'importance de l'éducation des filles en sciences et technologies.</p>
+                                    <div class="activity-meta">
+                                        <span class="activity-date">
+                                            <i class="fas fa-calendar"></i>
+                                            Mars 2024
+                                        </span>
+                                        <span class="activity-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Sokodé, Togo
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="activity-card">
+                                <div class="activity-image">
+                                    <img src="img/acti3.avif?height=300&width=400" alt="Remise de bourses">
+                                    <div class="activity-overlay">
+                                        <div class="activity-icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activity-content">
+                                    <h3>Remise de bourses d'études</h3>
+                                    <p>Cérémonie de remise de bourses à 50 jeunes filles méritantes pour poursuivre leurs études supérieures.</p>
+                                    <div class="activity-meta">
+                                        <span class="activity-date">
+                                            <i class="fas fa-calendar"></i>
+                                            Février 2024
+                                        </span>
+                                        <span class="activity-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Lomé, Togo
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support CTA -->
+    <section class="support-cta">
+        <div class="cta-bg">
+            <div class="cta-particles"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Rejoignez notre mission</h2>
+                <p>Ensemble, construisons un avenir durable pour l'Afrique</p>
+                <button class="support-btn" id="supportBtn">
+                    <div class="btn-bg"></div>
+                    <div class="btn-content">
+                        <i class="fas fa-heart"></i>
+                        <span>Soutenir les actions de la Fondation KYA</span>
+                    </div>
+                    <div class="btn-ripple"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors-section">
+        <div class="container">
+            <h2 class="section-title center" data-aos="fade-up">
+                <span class="title-line">Nos</span>
+                <span class="title-line highlight">Sponsors OR</span>
+            </h2>
+            
+            <div class="sponsors-container" data-aos="fade-up" data-aos-delay="300">
+                <div class="sponsors-grid">
+                    <div class="sponsor-card">
+                        <div class="sponsor-logo">
+                            <img src="img/asecna.png?height=80&width=160" alt="Sponsor 1">
+                        </div>
+                        <div class="sponsor-glow"></div>
+                    </div>
+                    <div class="sponsor-card">
+                        <div class="sponsor-logo">
+                            <img src="img/cetef.avif?height=80&width=160" alt="CETEF">
+                        </div>
+                        <div class="sponsor-glow"></div>
+                    </div>
+                    <div class="sponsor-card">
+                        <div class="sponsor-logo">
+                            <img src="img/onono.avif?height=80&width=160" alt="ONOMO">
+                        </div>
+                        <div class="sponsor-glow"></div>
+                    </div>
+                    <div class="sponsor-card">
+                        <div class="sponsor-logo">
+                            <img src="img/MOOV.avif?height=80&width=160" alt="Sponsor 4">
+                        </div>
+                        <div class="sponsor-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title center" data-aos="fade-up">
+                <span class="title-line">Nos dernières</span>
+                <span class="title-line highlight">Actualités</span>
+            </h2>
+            
+            <div class="news-grid">
+                <article class="news-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="news-image">
+                        <img src="img/2fcfb1_6094c382ee544223a1d5904f89862906~mv2.avif?height=250&width=350" alt="Formation des jeunes filles">
+                        <div class="news-overlay">
+                            <div class="news-category">Formation</div>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                7 mai 2024
+                            </span>
+                            <span class="news-author">
+                                <i class="fas fa-user"></i>
+                                Fondation KYA
+                            </span>
+                        </div>
+                        <h3 class="news-title">Formation des jeunes filles en solaire : la Fondation KYA</h3>
+                        <p class="news-excerpt">
+                            Un programme innovant pour former les jeunes femmes aux technologies solaires 
+                            et promouvoir leur autonomisation économique.
+                        </p>
+                        <div class="news-stats">
+                            <span><i class="fas fa-eye"></i> 74</span>
+                            <span><i class="fas fa-comment"></i> 0</span>
+                            <span><i class="fas fa-heart"></i> 12</span>
+                        </div>
+                        <a href="#" class="news-link">
+                            Lire la suite
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-image">
+                        <img src="img/3191ca_33235050d9ff4df2a7bb29133111eda6~mv2.avif?height=250&width=350" alt="Réunion du Conseil">
+                        <div class="news-overlay">
+                            <div class="news-category">Gouvernance</div>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                24 mai 2024
+                            </span>
+                            <span class="news-author">
+                                <i class="fas fa-user"></i>
+                                Conseil d'administration
+                            </span>
+                        </div>
+                        <h3 class="news-title">Fondation KYA : Réunion du Conseil d'administration</h3>
+                        <p class="news-excerpt">
+                            Le conseil d'administration se réunit pour définir les orientations stratégiques 
+                            et approuver les nouveaux projets de développement.
+                        </p>
+                        <div class="news-stats">
+                            <span><i class="fas fa-eye"></i> 53</span>
+                            <span><i class="fas fa-comment"></i> 2</span>
+                            <span class="fas fa-heart"></i> 8</span>
+                        </div>
+                        <a href="#" class="news-link">
+                            Lire la suite
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="news-image">
+                        <img src="img/3191ca_6ad0f10b94204d6e98884d78e6fe026a~mv2.avif?height=250&width=350" alt="Soutien renouvelé">
+                        <div class="news-overlay">
+                            <div class="news-category">Éducation</div>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">
+                                <i class="fas fa-calendar"></i>
+                                24 mai 2024
+                            </span>
+                            <span class="news-author">
+                                <i class="fas fa-user"></i>
+                                Équipe terrain
+                            </span>
+                        </div>
+                        <h3 class="news-title">Un soutien renouvelé pour l'éducation des filles</h3>
+                        <p class="news-excerpt">
+                            Extension du programme de bourses d'études pour permettre à plus de jeunes filles 
+                            d'accéder à l'enseignement supérieur en sciences et technologies.
+                        </p>
+                        <div class="news-stats">
+                            <span><i class="fas fa-eye"></i> 44</span>
+                            <span><i class="fas fa-comment"></i> 1</span>
+                            <span><i class="fas fa-heart"></i> 15</span>
+                        </div>
+                        <a href="#" class="news-link">
+                            Lire la suite
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="/placeholder.svg?height=40&width=100" alt="KYA ÉNERGIE GROUPE">
+                        <p>Democratizing access to sustainable energy</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <div class="social-ripple"></div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <div class="social-ripple"></div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="social-ripple"></div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <div class="social-ripple"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="products-services.html">Products & Services</a></li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="certification.html">Certification</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="kya-foundation.html">KYA Foundation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> contact@kya-energy.com</p>
+                        <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KYA ÉNERGIE GROUPE. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Legal Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <script src="kya-foundation.js"></script>
+</body>
+</html>
